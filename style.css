@@ -13,7 +13,7 @@ main{
     background-color: white;
     width: 340px;
     border-radius: 20px;
-    box-shadow: 7px 7px 7px rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
     /* margin: auto !important; */
     position: absolute;
     top: 50%;
@@ -41,6 +41,10 @@ main > img{
 }
 h2{
     font-weight: 900;
+}
+h2:hover{
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
 }
 h2 + p{
     font-size: 14px;
